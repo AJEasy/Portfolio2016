@@ -1,0 +1,221 @@
+body {
+    color: #fff;
+	background-color:#161616;
+	padding-top: 3.5rem;
+}
+.white {
+	color:white;
+}
+.black {
+	color:black;
+}
+.blue {
+	color:blue !important;
+}
+.jumbotron {
+	background-image: url(../images/airport-final.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#homeSearch {
+	color:#000;
+    text-align: center;
+	padding-top: 100px;
+    padding-bottom: 400px;
+}
+@media only screen and (max-width:768px){
+	#homeSearch {
+	color:#000;
+	padding-top: 200px;
+    padding-bottom: 200px;
+	}
+}
+.engine {
+	 opacity: 1;
+	 background-image: url('../images/plane-engine-bottom.png');
+	 background-repeat: no-repeat;
+	 width:350px;
+	 position:absolute;
+	 top:80px;
+	 left:0px;
+}
+.engineblades {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 350px;
+	height: 350px;
+}
+.enginetop {
+	width: 350px;
+	height: 350px;
+}
+.engine-sm {
+	 opacity: 1;
+	 background-image: url('../images/plane-engine-bottom.png');
+	 background-repeat: no-repeat;
+	 background-size:100%;
+	 width:200px;
+	 position:absolute;
+	 top:80px;
+	 left:0px;
+}
+.engineblades-sm {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 200px;
+	height: 200px;
+}
+.enginetop-sm {
+	width: 200px;
+	height: 200px;
+}
+.show-bf{
+	display:block;
+}
+.hide-bf{
+	display:none;
+}
+@media only screen and (max-width:768px){
+	.show-bf{
+		display:none;
+	}
+	.hide-bf{
+		display:block;
+	}
+}
+.special-bg {
+	background-image: url(../images/black-marble-alt.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+	background-color:#161616;
+}
+.p-30 {
+	padding:30px;
+}
+/* center section of the homepage */
+#work {
+	
+}
+.pos {
+    position:absolute;
+    top: 0px;
+    display: block;
+    width: 200px;
+}
+.pos-abso {
+	position:absolute;
+}
+.gheight {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 1;
+}
+.gallery-size {
+	width:200px;
+}
+#mission {
+    text-align: left;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 20px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+#gallery {
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 20px;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+#menu {
+	color:white;
+	text-align:center;
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
+#about {
+	border-radius: 10px;
+    background-color: #161616;
+	position: bottom;
+	border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+.about-bg {
+	background-image: url('../images/mountain.jpg');
+	background-repeat: no-repeat;
+}
+.professional-bg {
+	background-image: url('../images/plane-wing.jpg');
+	background-repeat: no-repeat;
+}
+.art-bg {
+	background-image: url('../images/city.jpg');
+	background-repeat: no-repeat;
+}
+.print-bg {
+	background-image: url('../images/desert.jpg');
+	background-repeat: no-repeat;
+}
+.contact {
+	background-color: #151515;
+    box-shadow: 0px 12px 10px #000000;
+    border-radius: 15px;
+    text-align: center;
+	margin-bottom: 15px;
+}
+.f-border {
+	border-top:2px solid gold;
+}
+.wt-border {
+	border-top:1px solid white;
+}
+.w-border {
+	border:1px solid white;
+}
+.r-border {
+	border:1px solid red;
+}
+.container-base {
+	position: relative;
+	width: 100%;
+}
+.image-btm {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.container-base:hover .image {
+	opacity: 0.3;
+}
+
+.container-base:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: #151515;
+	color: white;
+	font-size: 12px;
+	padding: 16px 32px;
+}
